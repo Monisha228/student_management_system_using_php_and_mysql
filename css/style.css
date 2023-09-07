@@ -1,0 +1,107 @@
+body
+{
+    margin:0;
+    padding: 0;
+    background:url(images/bgd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+	font-family: sans-serif;
+}
+.login
+{
+	width: 320px;
+	height: 460px;
+	background: #ffeaf1;
+	color: black;
+	top:50%;
+	left: 30%;
+	position: absolute;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+.login h3
+{
+	margin: 0;
+	color: black;
+	padding: 16px 0 10px;
+	font-family: 'Brush Script MT', cursive;
+	font-size: 40px;
+	border-bottom: 3px solid #ff578d;
+	width: 50%;
+}
+.login input{
+	font-size: 16px;
+	padding: 12px 10px;
+	border: 0;
+	outline: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+}
+.login p{
+	text-align: center;
+	padding-top: 27px;
+}
+.login button
+{
+	margin-top: 20px;
+	padding: 13px 16px;
+	background-color:#ff578d;
+	font-weight: bold;
+	font-size: 16px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+	outline: none;
+	border: 0;
+}
+.error
+{
+	background:navy;
+	color:red;
+	line-height:30px;
+	border-radius:5px;
+	height:30px;
+	text-align:center;
+	margin-top: 8px;
+}
+nav
+{
+	margin-top:30px;
+	margin-left:700px;
+}
+nav ul
+{
+	display:flex;
+	list-style-type: none;
+	text-decoration: none;
+	transform: skew(-20deg);
+
+}
+nav ul li
+{
+	background: white;
+	height:15px;
+	padding:10px;
+	border-right: 2px solid #ff578d;
+	text-transform: uppercase;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition:  all 0.2s linear;
+}
+nav ul li:hover
+{
+ background-color:#ff578d;
+ color:white;
+}
+nav ul li a
+{
+	text-decoration: none;
+	color:black;
+}
+nav ul li a:hover
+{
+	color:white;
+}
+
